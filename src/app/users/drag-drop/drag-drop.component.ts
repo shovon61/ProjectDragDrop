@@ -24,6 +24,8 @@ export class DragDropComponent {
 
   now = [
     'hand',
+    'Bike',
+    'Weight Loss',
     'Pick',
     'Go home',
     'sleep forever'
@@ -31,9 +33,18 @@ export class DragDropComponent {
 
   future = [
     'Job',
+    'Car',
     'Responsibility',
     'Taka',
     'status',
+  ];
+
+  extra = [
+    'Best Job',
+    'Money',
+    'Office',
+    'Task to do',
+    'Something',
   ];
 
   drop(event: CdkDragDrop<string[]>): void {
